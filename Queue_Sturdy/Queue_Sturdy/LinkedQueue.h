@@ -22,6 +22,6 @@ void LQ_DestroyQueue(LinkedQueue* Queue);
 void LQ_EnQueue(LinkedQueue* Queue, Node* NewNode);
 Node* LQ_DeQueue(LinkedQueue* Queue);
 
-Node* LQ_CreateNode(char* NewNode);
+Node* LQ_CreateNode(const char* NewNode);
 void LQ_DestroyNode(Node* Node);
 bool LQ_IsEmpty(LinkedQueue* Queue);

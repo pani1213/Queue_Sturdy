@@ -5,9 +5,21 @@
 
 int main()
 {
-	char a = 'qwe';
-	const char* pA = &a;
+	Node* Poppend;
+	LinkedQueue* Queue;
 
-	printf(pA);
+	LQ_CreateQueue(&Queue);
+
+	LQ_EnQueue(Queue, LQ_CreateNode("asdh"));
+	LQ_EnQueue(Queue, LQ_CreateNode("zsa"));
+	LQ_EnQueue(Queue, LQ_CreateNode("ayd"));
+	LQ_EnQueue(Queue, LQ_CreateNode("ewq"));
+	LQ_EnQueue(Queue, LQ_CreateNode("awq"));
+
+	std::cout << Queue->Count;
+	Poppend = LQ_DeQueue(Queue);
+	std::cout << Poppend->Data << "\n";
+
+	return 0;
 }
 
