@@ -13,18 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="LinkedQueue">
+      <UniqueIdentifier>{16fc66b0-fac6-4767-802b-6c0a4530fad8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CircularQueue.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="LinkedQueue.cpp">
+      <Filter>LinkedQueue</Filter>
     </ClCompile>
-    <ClCompile Include="QueueMain.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="MainQueue.cpp">
+      <Filter>LinkedQueue</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CircularQueue.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="LinkedQueue.h">
+      <Filter>LinkedQueue</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
